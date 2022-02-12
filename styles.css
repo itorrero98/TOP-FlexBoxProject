@@ -41,15 +41,17 @@ a {
     display: flex;
     flex: 1;
     background-color: #1f2937;
-    padding: 36px;
-    justify-content: center;
+    padding: 5vh 16vw;
+    justify-content: space-around;
     align-items: center;
+    gap: 5em;
 }
 
 #header-primary-title {
     color: #f9faf8;
     font-size: 48px;
     font-weight: bolder;
+    margin: 0;
 }
 
 #header-subtext {
@@ -62,10 +64,32 @@ a {
     height: 15%;
 }
 
+.card-info-container {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.card-info-container > p {
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1f2937;
+}
+
 .card-container {
     display: flex;
     flex: 1;
-    height: 20%;
+    gap: 32px;
+    flex-wrap: wrap;
+}
+
+.card > img {
+    border-color: #3882f6;
+    border-style: solid;
+    border-radius: 1em;
+    border-width: 0.5em;
 }
 .testimony-container {
     display: flex;
