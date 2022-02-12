@@ -1,0 +1,79 @@
+body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+}
+
+a {
+    color: inherit; /* blue colors for links too */
+    text-decoration: inherit; /* no underline */
+}
+
+.page-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    flex: 1;
+}
+
+.nav {
+    display: flex;
+    flex: 1;
+    height: 15vh;
+    justify-content: space-around;
+    background-color: #1f2937;
+    color: #f9faf8;
+}
+
+.nav > p {
+    color: #f9faf8;
+    font-size: 24px;
+}
+
+.header-links {
+    list-style-type: none;
+    align-self: center;
+    display: flex;
+    justify-content: space-between;
+    gap: 16px;
+}
+.header {
+    display: flex;
+    flex: 1;
+    background-color: #1f2937;
+    padding: 36px;
+    justify-content: center;
+    align-items: center;
+}
+
+#header-primary-title {
+    color: #f9faf8;
+    font-size: 48px;
+    font-weight: bolder;
+}
+
+#header-subtext {
+    color: #e5e7eb;
+    font-size: 18px;
+}
+.footer {
+    display: flex;
+    flex: 1;
+    height: 15%;
+}
+
+.card-container {
+    display: flex;
+    flex: 1;
+    height: 20%;
+}
+.testimony-container {
+    display: flex;
+    flex: 1;
+    height: 20%;
+}
+.cta-container {
+    display: flex;
+    flex: 1;
+    height: 20%;
+}
