@@ -58,10 +58,15 @@ a {
     color: #e5e7eb;
     font-size: 18px;
 }
-.footer {
-    display: flex;
-    flex: 1;
-    height: 15%;
+
+#header-cta-btn {
+    background-color: #3882f6;
+    padding: 8px;
+    border-radius: 0.5em;
+    font-style: bold;
+    width: 5em;
+    text-align: center;
+    color: #f9faf8;
 }
 
 .card-info-container {
@@ -70,6 +75,7 @@ a {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    margin-bottom: 48px;
 }
 
 .card-info-container > p {
@@ -94,10 +100,69 @@ a {
 .testimony-container {
     display: flex;
     flex: 1;
-    height: 20%;
+    flex-direction: column;
+    background-color: #e5e7eb;
+    padding: 5vh 16vw;
+    align-items: center;
+    justify-content: center;
+}
+
+#testimony-text {
+    font-size: 36px;
+    font-style: italic;
+    color: #1f2937;
+}
+
+#testimony-credit {
+    font-weight: bolder;
+    align-self: flex-end;
 }
 .cta-container {
     display: flex;
     flex: 1;
-    height: 20%;
+    justify-content: center;
+    align-items: center;
+    margin: 48px 0;
+}
+
+.cta-inner-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #3882f6;
+    font-weight: 500;
+    border-radius: 0.5em;
+    width: 75%;
+}
+
+.cta-text-container {
+    color: #f9faf8;
+}
+
+#main-cta-text {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 0;
+}
+#sub-cta-text {
+    font-size: 16px;
+    font-style: italic;
+    margin-top: 0;
+}
+
+#main-cta-btn {
+    background-color: #3882f6;
+    padding: 8px;
+    border-color: #f9faf8;
+    border-width: 2px;
+    border-style: solid;
+    border-radius: 0.5em;
+    font-style: bold;
+    color: #f9faf8;
+}
+
+.footer {
+    display: flex;
+    flex: 1;
+    height: 15%;
 }
