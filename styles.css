@@ -9,6 +9,11 @@ a {
     text-decoration: inherit; /* no underline */
 }
 
+li {
+    color: #e5e7eb;
+    font-size: 18px;
+}
+
 .page-container {
     display: flex;
     flex-direction: column;
